@@ -48,7 +48,7 @@ export default function RegisterForm() {
       
         const form  = document.getElementById("form");
            form.reset();
-          router.push("/login");
+          router.push("./login");
     } catch (error) {
       console.log("error during rigister: ",error);
     }
